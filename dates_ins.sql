@@ -1,5 +1,6 @@
 drop table dates;
 create table dates (thedate real);
+begin transaction;
 insert into dates values ('2455197.5');
 insert into dates values ('2455197.5' + 1);
 insert into dates values ('2455197.5' + 2);
@@ -3652,3 +3653,4 @@ insert into dates values ('2455197.5' + 3648);
 insert into dates values ('2455197.5' + 3649);
 insert into dates values ('2455197.5' + 3650);
 insert into dates values ('2455197.5' + 3651);
+commit;

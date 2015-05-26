@@ -1,0 +1,9 @@
+Dev Notes
+
+20150525 Memorial Day Weekend
+
+BuildMRRFact.sql is where I am currently working, it's time to build out
+a fact table for subscription mrr and ideally tcv.
+
+Also need to create a simple version of PPZDW that JUST builds the billing
+preview api!!!
